@@ -1,21 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import HeroPage from './components/Herosections';
-import Navbar from './components/NavBar';
-import Footer from './components/footer';
-
-
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import HeroPage from "./components/Herosections";
+import Navbar from "./components/NavBar";
+import Footer from "./components/footer";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <HeroPage/>
-    <Footer/>
+      <Navbar />
+      <HeroPage />
+      <Layout />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
