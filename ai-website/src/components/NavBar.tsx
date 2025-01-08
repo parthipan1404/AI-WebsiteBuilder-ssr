@@ -1,16 +1,24 @@
 import React from "react";
 
 const Navbar = () => {
+    const containerStyle = {
+        backgroundColor: '#ffffff',
+        height:'70px',
+        justifycontent: 'center',
+        display: 'grid',
+    alignitems: 'center',
+    };
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div style={containerStyle}>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img
-            src="./"
+            src={'src/assets/favicon.ico'}
             alt="Logo"
             width="30"
             height="30"
-            className="d-inline-block align-text-top"
+            className="d-inline-block align-text-top mx-2"
           />
           777Hosting
         </a>
@@ -52,7 +60,7 @@ const Navbar = () => {
                 Blog
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-2">
               <a
                 className="btn btn-success"
                 href="#"
@@ -73,6 +81,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 
