@@ -64,7 +64,12 @@ const demo = () => {
               <a className="nav-link" href="#">
                 contact Us
               </a>
+            </li><li className="nav-item">
+              <a className="nav-link" href="#">
+                View More
+              </a>
             </li>
+
             <li className="nav-item mx-2">
               <a
                 className="btn btn-success"
