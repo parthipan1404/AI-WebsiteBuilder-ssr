@@ -1,5 +1,3 @@
-import React from 'react';
-
 const HeroPage = () => {
   const containerStyle = {
     backgroundColor: '#DFF0E0',

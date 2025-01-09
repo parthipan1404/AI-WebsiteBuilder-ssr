@@ -1,4 +1,3 @@
-import React from "react";
 import "../index.css";
 import { Container, Row, Col } from "react-bootstrap";
 const Layout = () => {
