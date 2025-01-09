@@ -5,14 +5,6 @@ const Layout = () => {
     <div className="imge-layout">
       <Container>
         <Row>
-          <Col md={12}>
-            <img
-              src="src/assets/Group-912-4.png"
-              alt="77hosting"
-              className="img-fluid"
-              style={{ height: "530px", width: "1200px" }}
-            />
-          </Col>
           <Col md={6} className="mt-3">
             <img
               src="src/assets/Group-761.png"
