@@ -1,6 +1,5 @@
 .container_dev{
     background-color:#DFF0E0 ;
-    min-height: 600px;
     display: flex;
     align-items: center;
     padding: 80px 0px 0px 0px,
@@ -12,3 +11,15 @@
 .min_with{
     width: 10px;
 }
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  .hover-card {
+    background-color: #D5DFFF;
+    width: 24rem;
+    border-Radius: 15px;
+    overflow: hidden;
+    box-Shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
