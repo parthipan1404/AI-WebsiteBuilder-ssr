@@ -3,5 +3,5 @@
 }
 .icon_value{
     display: grid;
-    text-align: center;
+    align-items: center;
 }
