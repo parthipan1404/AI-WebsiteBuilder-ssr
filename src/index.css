@@ -1,7 +1,14 @@
-.imge-layout{
-    margin-top: -230px;
+.container_dev{
+    background-color:#DFF0E0 ;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px 0px 0px,
 }
 .icon_value{
     display: grid;
     align-items: center;
+}
+.min_with{
+    width: 10px;
 }
