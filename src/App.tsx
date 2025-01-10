@@ -14,9 +14,9 @@ function App() {
       <Navbar />
       <HeroPage />
       <Layout />
-      <Demo/>
-      <Faq/>
-      <AIWebsitePromo/>
+      <Demo />
+      <AIWebsitePromo />
+      <Faq />
       <Footer />
     </>
   );
