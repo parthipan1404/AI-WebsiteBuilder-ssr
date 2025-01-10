@@ -1,15 +1,22 @@
 import "../index.css";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import AISection from "./AIsection";
+import Search from "./Search_box";
 const HeroPage = () => {
   return (
     <div className="container_dev">
       <Container>
         <Row className="text-center">
           <Col xs={12} className="mt-5">
+          <img src="src/assets/favicon.ico" alt="logo" style={{ maxWidth:'60px'} }/>
             <h4 className="py-2">777Builder AI</h4>
-            <h1 className="py-2">Build your free website, and we'll host it for you!</h1>
-            <p>Start from scratch or bring your ideas to life—our AI tools make it easy.</p>
+            <h1 className="py-2">
+              Build your free website, and we'll host it for you!
+            </h1>
+            <p>
+              Start from scratch or bring your ideas to life—our AI tools make
+              it easy.
+            </p>
           </Col>
         </Row>
         <Row className="text-center my-3">
@@ -23,7 +30,8 @@ const HeroPage = () => {
             No coding required
           </Col>
         </Row>
-        <Row className="text-center my-3">
+        <Search />
+        <Row className="text-center">
           <Col>
             <Button
               variant="primary"
@@ -31,8 +39,7 @@ const HeroPage = () => {
                 background: "#4CAF50",
                 borderRadius: "60px",
                 border: "none",
-                boxShadow:
-                  "-4px -4px 5px 0px rgba(0, 0, 0, 0.25) inset",
+                boxShadow: "-4px -4px 5px 0px rgba(0, 0, 0, 0.25) inset",
                 padding: "10px 40px",
               }}
             >
