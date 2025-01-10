@@ -7,7 +7,7 @@ const Layout = () => {
         <Row>
           <Col md={6} className="mt-3">
             <img
-              src="src/assets/Group-761.png"
+              src="https://777hosting.co.uk/wp-content/webp-express/webp-images/uploads/2024/12/Group-761-1-1-1-1-1242x2048.png.webp"
               alt="77hosting"
               className="img-fluid"
               style={{ height: "657px", width: "417px" }}
