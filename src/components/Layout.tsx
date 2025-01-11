@@ -1,4 +1,5 @@
 import "../index.css";
+import myImage from '../assets/Group-761.png';
 import { Container, Row, Col } from "react-bootstrap";
 const Layout = () => {
   return (
@@ -7,7 +8,7 @@ const Layout = () => {
         <Row>
           <Col md={6} className="mt-3">
             <img
-              src="https://parthipan1404.github.io/AI-WebsiteBuilder-src/assets/Group-761.png"
+              src={myImage}
               alt="77hosting"
               className="img-fluid"
               style={{ height: "657px", width: "417px" }}
