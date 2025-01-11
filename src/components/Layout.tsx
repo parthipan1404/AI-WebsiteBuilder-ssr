@@ -7,7 +7,7 @@ const Layout = () => {
         <Row>
           <Col md={6} className="mt-3">
             <img
-              src="src/assets/Group-761.png"
+              src="https://parthipan1404.github.io/AI-WebsiteBuilder-src/assets/Group-761.png"
               alt="77hosting"
               className="img-fluid"
               style={{ height: "657px", width: "417px" }}
