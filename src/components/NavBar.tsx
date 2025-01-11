@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="container">
           <a className="navbar-brand" href="#">
             <img
-              src="https://freewebsite.777hosting.net/wp-content/webp-express/webp-images/uploads/2024/11/777Hosting_MainLogo_Variation_300-px-X-300-px.png.webp"
+              src="https://parthipan1404.github.io/AI-WebsiteBuilder-ssr/assets/favicon-DUDWcYBr.ico"
               alt="Logo"
               width="30"
               height="30"
