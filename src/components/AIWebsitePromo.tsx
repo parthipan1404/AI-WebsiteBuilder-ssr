@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 const AIWebsitePromo = () => {
   return (
@@ -27,20 +27,13 @@ const AIWebsitePromo = () => {
               Would you like to try our AI Website Maker for free?
             </h2>
             <p style={{ fontSize: "18px", marginBottom: "30px" }}>
-              CodeDesign is your go-to AI website maker! Whether you're new here, or back to see what's up, we’ll have you running and ready to do your best work in minutes.
+              CodeDesign is your go-to AI website maker! Whether you're new
+              here, or back to see what's up, we’ll have you running and ready
+              to do your best work in minutes.
             </p>
-            <Button
-              style={{
-                backgroundColor: "#4CAF50",
-                color: "#fff",
-                fontWeight: "bold",
-                border: "none",
-                borderRadius: "8px",
-                padding: "10px 20px",
-              }}
-            >
+            <button className="button-css text-light">
               ✨ Create your website with AI
-            </Button>
+            </button>
           </Col>
         </Row>
       </Container>

@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HeroPage from "../components/Herosections";
 import Navbar from "../components/NavBar";

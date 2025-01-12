@@ -11,6 +11,7 @@ const HeroPage = () => {
             <img
               src="https://parthipan1404.github.io/AI-WebsiteBuilder-ssr/assets/favicon-DUDWcYBr.ico"
               style={{ maxWidth: "60px" }}
+              alt="777hosting"
             />
             <h4 className="py-2">777Builder AI</h4>
             <h1 className="py-2">
@@ -36,18 +37,11 @@ const HeroPage = () => {
         <Search />
         <Row className="text-center">
           <Col>
-            <Button
-              variant="primary"
-              style={{
-                background: "#4CAF50",
-                borderRadius: "60px",
-                border: "none",
-                boxShadow: "-4px -4px 5px 0px rgba(0, 0, 0, 0.25) inset",
-                padding: "10px 40px",
-              }}
+            <button
+             className="button-css text-light"
             >
               Generate Website
-            </Button>
+            </button>
           </Col>
         </Row>
         <Row>

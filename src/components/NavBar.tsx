@@ -59,21 +59,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a
-                  className="btn btn-success"
-                  href="#"
-                  role="button"
-                  style={{
-                    background: "#4CAF50",
-                    borderRadius: "60px",
-                    border: "none",
-                    boxShadow:
-                      "-4px -4px 5px 0px rgba(0, 0, 0, 0.25098039215686274) inset",
-                    padding: "10px 40px",
-                  }}
+                <button
+                  className="text-light button-css"
                 >
                   Login
-                </a>
+                </button>
               </li>
             </ul>
           </div>

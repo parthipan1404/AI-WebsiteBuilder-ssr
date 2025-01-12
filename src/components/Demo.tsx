@@ -118,14 +118,8 @@ const Demo = () => {
           </div>
         <div style={{ alignSelf: 'flex-start', width: '100%' }}>
           <button
-            className="btn btn-primary mt-3"
-            style={{
-              background: '#4CAF50',
-              borderRadius: '60px',
-              border: 'none',
-              boxShadow: '-4px -4px 5px 0px rgba(0, 0, 0, 0.25) inset',
-              padding: '10px 40px',
-            }}>
+            className="mt-3 button-css text-light"
+            >
                 Get Started Now
 
           </button>
@@ -226,14 +220,8 @@ const Demo = () => {
           </div>
         <div style={{ alignSelf: 'flex-start', width: '100%' }}>
           <button
-            className="btn btn-primary mt-3"
-            style={{
-              background: '#4CAF50',
-              borderRadius: '60px',
-              border: 'none',
-              boxShadow: '-4px -4px 5px 0px rgba(0, 0, 0, 0.25) inset',
-              padding: '10px 40px',
-            }}>
+            className="button-css mt-3 text-light"
+            >
                 Get Started Now
           </button>
         </div>
