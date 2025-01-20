@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - npm install
+    - npm run build
+    - rsync -av --delete build/ /home/nextgeninfo/repositories/AI-WebsiteBuilder-ssr
