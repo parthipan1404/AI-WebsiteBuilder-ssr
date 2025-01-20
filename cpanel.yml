@@ -1,5 +1,39 @@
-deployment:
-  tasks:
-    - npm install
-    - npm run build
-    - rsync -av --delete build/ /home/nextgeninfo/repositories/AI-WebsiteBuilder-ssr
+name: Deploy React Vite App to cPanel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Build the React Vite app
+      - name: Build Vite App
+        run: npm run build
+
+      # Step 5: Deploy to cPanel
+      - name: Deploy to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.CPANEL_FTP_SERVER }}
+          username: ${{ secrets.CPANEL_FTP_USERNAME }}
+          password: ${{ secrets.CPANEL_FTP_PASSWORD }}
+          local-dir: dist
+          server-dir: /public_html
