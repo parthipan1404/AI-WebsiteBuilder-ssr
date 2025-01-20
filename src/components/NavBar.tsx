@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const containerStyle = {
     backgroundColor: "#ffffff",
@@ -59,11 +60,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <button
-                  className="text-light button-css"
-                >
-                  Login
-                </button>
+              <Link className="text-light button-css" to="/login">Login</Link>
               </li>
             </ul>
           </div>
