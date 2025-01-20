@@ -1,5 +1,5 @@
 deployment:
   tasks:
-    - npm install
-    - npm run build
-    - cp -R build/ /home/nextgeninfo/repositories/AI-WebsiteBuilder-ssr
+    - /usr/local/bin/npm install
+    - /usr/local/bin/npm run build
+    - cp -R build/* /home/nextgeninfo/repositories/AI-WebsiteBuilder-ssr/
